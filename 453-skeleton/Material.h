@@ -15,12 +15,15 @@ struct ObjectMaterial {
 	float specularCoefficient = 0;
 	float refractiveIndex = 1.0;
 
+	int id;
+
 	ObjectMaterial()
 		: ambient(0.0, 0.0, 0.0)
 		, diffuse(0, 0, 0)
 		, specular(0, 0, 0)
 		, reflectionStrength(0, 0, 0)
 		, refractiveIndex(1.0)
+		, id(-1)
 	{}
 };
 

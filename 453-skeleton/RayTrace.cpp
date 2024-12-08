@@ -40,6 +40,32 @@ Intersection Sphere::getIntersection(Ray ray){
 	// If you get fancy and implement things like refraction, you may actually
 	// want to track more than one intersection. You'll need to change
 	// The intersection struct in that case.
+
+    vec3 oc = ray.origin - centre; // vector from ray origin to the sphere center
+    float a = glm::dot(ray.direction, ray.direction);
+    float b = 2.0f * glm::dot(oc, ray.direction);
+    float c = glm::dot(oc, oc) - radius * radius;
+    float discriminant = b * b - 4 * a * c;
+
+	if (discriminant < 0) {
+        i.numberOfIntersections = 0;
+    } else {
+        // nearest intersection point
+        float t = (-b - sqrt(discriminant)) / (2.0f * a);
+        if (t < 0) {
+            // intersection is behind the ray origin
+            t = (-b + sqrt(discriminant)) / (2.0f * a);
+            if (t < 0) {
+                i.numberOfIntersections = 0;
+                return i;
+            }
+        }
+
+        i.point = ray.origin + t * ray.direction;
+        i.normal = glm::normalize(i.point - centre);
+        i.numberOfIntersections = 1;
+    }
+
 	return i;
 }
 
@@ -78,6 +104,31 @@ Intersection Cylinder::getIntersection(Ray ray)
 	// If you get fancy and implement things like refraction, you may actually
 	// want to track more than one intersection. You'll need to change
 	// The intersection struct in that case.
+
+    vec3 oc = ray.origin - center; // vector from ray origin to the cylinder center
+    float a = ray.direction.x * ray.direction.x + ray.direction.z * ray.direction.z;
+    float b = 2.0f * (oc.x * ray.direction.x + oc.z * ray.direction.z);
+    float c = oc.x * oc.x + oc.z * oc.z - radius * radius;
+    float discriminant = b * b - 4 * a * c;
+
+    if (discriminant < 0) {
+        i.numberOfIntersections = 0;
+    } else {
+        float t0 = (-b - sqrt(discriminant)) / (2.0f * a);
+        float t1 = (-b + sqrt(discriminant)) / (2.0f * a);
+        float t = (t0 < t1) ? t0 : t1;
+
+        float yIntersection = ray.origin.y + t * ray.direction.y;
+        if (yIntersection < center.y || yIntersection > center.y + height) {
+            i.numberOfIntersections = 0;
+            return i; // no intersection within cylinder height
+        }
+
+        i.point = ray.origin + t * ray.direction;
+        i.normal = glm::normalize(i.point - vec3(center.x, yIntersection, center.z));
+        i.numberOfIntersections = 1;
+    }
+
 	return i;
 }
 

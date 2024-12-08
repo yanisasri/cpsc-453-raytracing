@@ -77,14 +77,52 @@ glm::vec3 raytraceSingleRay(Scene const &scene, Ray const &ray, int level, int s
 	phong.material = result.material;
 	phong.intersection = result;
 
-	if(result.numberOfIntersections == 0) return glm::vec3(0, 0, 0); // black;
+	if(result.numberOfIntersections == 0) return glm::vec3(0, 0, 0); // black
 
-	if (level < 1) {
-		phong.material.reflectionStrength = glm::vec3(0);
-	}
+    glm::vec3 lightDirection = glm::normalize(scene.lightPosition - result.point);
+    Ray shadowRay(result.point + lightDirection * 0.0001f, lightDirection);
+    bool isInShadow = (hasIntersection(scene, shadowRay, result.material.id) != -1);
 
+    if (isInShadow) {
+        phong.material.diffuse *= 0.5f;
+    }
 
-	return phong.I();
+    glm::vec3 color = phong.I(); // base color
+
+    // reflection
+    if (level > 0 && phong.material.reflectionStrength != glm::vec3(0)) {
+        glm::vec3 reflectedDirection = glm::normalize(glm::reflect(ray.direction, result.normal));
+        Ray reflectedRay(result.point + reflectedDirection * 0.0001f, reflectedDirection);
+        glm::vec3 reflectedColor = raytraceSingleRay(scene, reflectedRay, level - 1, result.material.id);
+        color += reflectedColor * phong.material.reflectionStrength;
+    }
+
+    // refraction
+    if (level > 0 && phong.material.refractiveIndex < 1.0) {
+        float etaI = 1.0; // index of refraction for air
+        float etaT = phong.material.refractiveIndex; // index of refraction for material
+        glm::vec3 refractedDirection;
+
+        if (glm::dot(ray.direction, result.normal) > 0) {
+            // Inside the material
+            std::swap(etaI, etaT);
+            result.normal = -result.normal; // flip normal
+        }
+
+        float refractRatio = etaI / etaT;
+        float cosI = -glm::dot(result.normal, ray.direction);
+        float sinT2 = refractRatio * refractRatio * (1.0 - cosI * cosI);
+
+        if (sinT2 <= 1.0) {
+            float cosT = sqrt(1.0 - sinT2);
+            refractedDirection = refractRatio * ray.direction + (refractRatio * cosI - cosT) * result.normal;
+            Ray refractedRay(result.point - refractedDirection * 0.0001f, refractedDirection);
+            glm::vec3 refractedColor = raytraceSingleRay(scene, refractedRay, level - 1, result.material.id);
+            color += refractedColor * (1.0f - phong.material.reflectionStrength.r);
+        }
+    }
+
+    return color;
 }
 
 struct RayAndPixel {
@@ -108,19 +146,6 @@ std::vector<RayAndPixel> getRaysForViewpoint(Scene const &scene, ImageBuffer &im
 	float aspectRatio = static_cast<float>(image.Width()) / static_cast<float>(image.Height());
     float fov = 90.0f; // field of view in degrees
     float tanFov = tan(glm::radians(fov / 2.0f));
-
-	// original code
-	// for (float i = -1; x < image.Width(); x++) {
-	// 	y = 0;
-	// 	for (float j = -1; y < image.Height(); y++) {
-	// 		glm::vec3 direction(0, 0, -1);
-	// 		glm::vec3 viewPointOrthographic(i-viewPoint.x, j-viewPoint.y, 0);
-	// 		Ray r = Ray(viewPointOrthographic, direction);
-	// 		rays.push_back({r, x, y});
-	// 		j += 2.f / image.Height();
-	// 	}
-	// 	i += 2.f / image.Width();
-	// }
 
 	for (int x = 0; x < image.Width(); x++) {
         for (int y = 0; y < image.Height(); y++) {

@@ -4,6 +4,10 @@
 
 The source files have been uploaded as a zip file into the dropbox.
 
+<u>Keyboard controls:</u>
+* <b>1 key</b>: Switch to scene 1
+* <b>2 key</b>: Switch to scene 2
+
 --------------------------
 
 <b>Operating System:</b> macOS
@@ -22,6 +26,8 @@ The source files have been uploaded as a zip file into the dropbox.
 cd build
 ./453-skeleton
 ```
+
+<b>Note:</b> The window takes a minute to open after running ./453-skeleton. Please be patient!
 
 If you are having troubles with building (running cmake with the output dropdown / build button at the bottom toolbar), enter the following into the terminal:
 ```bash
