@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "thirdparty/fmt-7.0.3",
+		"source" : "thirdparty/fmt-7.0.3"
+	}
+}

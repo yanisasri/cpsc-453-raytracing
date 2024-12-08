@@ -18,6 +18,8 @@
 
 #include <iostream>
 #include <glm/common.hpp>
+#include <glm/glm.hpp>
+#include <glm/gtc/type_ptr.hpp>
 
 #include "imagebuffer.h"
 
@@ -169,9 +171,9 @@ bool ImageBuffer::SaveToFile(const string &imageFileName)
             int i = (m_height - 1 - y) * m_width + x;
             i *= numComponents;
 
-            pixels[i]     = (unsigned char) (255 * clamp(color.r, 0.f, 1.f));	// red
-            pixels[i + 1] = (unsigned char) (255 * clamp(color.g, 0.f, 1.f));	// green
-            pixels[i + 2] = (unsigned char) (255 * clamp(color.b, 0.f, 1.f));	// blue
+            pixels[i]     = (unsigned char) (255 * glm::clamp(color.r, 0.f, 1.f));	// red
+            pixels[i + 1] = (unsigned char) (255 * glm::clamp(color.g, 0.f, 1.f));	// green
+            pixels[i + 2] = (unsigned char) (255 * glm::clamp(color.b, 0.f, 1.f));	// blue
         }
 
     // Save the image to disk

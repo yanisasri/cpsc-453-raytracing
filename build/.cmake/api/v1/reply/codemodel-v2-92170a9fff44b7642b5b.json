@@ -1,0 +1,205 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "thirdparty/glad",
+					"jsonFile" : "directory-thirdparty.glad-Debug-6931419773fecaac29b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "thirdparty/glad",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "thirdparty/glfw-3.3.2",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-thirdparty.glfw-3.3.2-Debug-689431ddc41dd058e1f6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "thirdparty/glfw-3.3.2",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "thirdparty/glfw-3.3.2/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-thirdparty.glfw-3.3.2.src-Debug-9831434e23bcdbe1e921.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "thirdparty/glfw-3.3.2/src",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "thirdparty/fmt-7.0.3",
+					"jsonFile" : "directory-thirdparty.fmt-7.0.3-Debug-dd0dc9a33d9c65471793.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "thirdparty/fmt-7.0.3",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "453-skeleton",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Glad",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "FMT",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "453-skeleton::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-453-skeleton-Debug-7cfbd776d28bf53eb9db.json",
+					"name" : "453-skeleton",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "fmt::@2c61785717895844583f",
+					"jsonFile" : "target-fmt-Debug-742ca819300160c66e7c.json",
+					"name" : "fmt",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "glad::@140c1f658771f9cc4abc",
+					"jsonFile" : "target-glad-Debug-c9304de6af2a00592508.json",
+					"name" : "glad",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glfw::@c8db1781ba139d98a588",
+					"jsonFile" : "target-glfw-Debug-b789a45a2611059c03d9.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uninstall::@438bdad978d0008df4cd",
+					"jsonFile" : "target-uninstall-Debug-98ccfc9d4beef3fec329.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/build",
+		"source" : "/Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
