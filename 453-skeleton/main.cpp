@@ -95,6 +95,8 @@ struct RayAndPixel {
 
 std::vector<RayAndPixel> getRaysForViewpoint(Scene const &scene, ImageBuffer &image, glm::vec3 viewPoint) {
 	// This is the function you must implement for part 1
+	// TODO: Part 1: Currently this is casting rays in an orthographic style.
+	//               You need to change this code to project them in a pinhole camera style.
 	//
 	// This function is responsible for creating the rays that go
 	// from the viewpoint out into the scene with the appropriate direction
@@ -103,19 +105,41 @@ std::vector<RayAndPixel> getRaysForViewpoint(Scene const &scene, ImageBuffer &im
 	int y = 0;
 	std::vector<RayAndPixel> rays;
 
-	// TODO: Part 1: Currently this is casting rays in an orthographic style.
-	//               You need to change this code to project them in a pinhole camera style.
-	for (float i = -1; x < image.Width(); x++) {
-		y = 0;
-		for (float j = -1; y < image.Height(); y++) {
-			glm::vec3 direction(0, 0, -1);
-			glm::vec3 viewPointOrthographic(i-viewPoint.x, j-viewPoint.y, 0);
-			Ray r = Ray(viewPointOrthographic, direction);
-			rays.push_back({r, x, y});
-			j += 2.f / image.Height();
-		}
-		i += 2.f / image.Width();
-	}
+	float aspectRatio = static_cast<float>(image.Width()) / static_cast<float>(image.Height());
+    float fov = 90.0f; // field of view in degrees
+    float tanFov = tan(glm::radians(fov / 2.0f));
+
+	// original code
+	// for (float i = -1; x < image.Width(); x++) {
+	// 	y = 0;
+	// 	for (float j = -1; y < image.Height(); y++) {
+	// 		glm::vec3 direction(0, 0, -1);
+	// 		glm::vec3 viewPointOrthographic(i-viewPoint.x, j-viewPoint.y, 0);
+	// 		Ray r = Ray(viewPointOrthographic, direction);
+	// 		rays.push_back({r, x, y});
+	// 		j += 2.f / image.Height();
+	// 	}
+	// 	i += 2.f / image.Width();
+	// }
+
+	for (int x = 0; x < image.Width(); x++) {
+        for (int y = 0; y < image.Height(); y++) {
+            float ndcX = (x + 0.5f) / image.Width() * 2 - 1;
+            float ndcY = (y + 0.5f) / image.Height() * 2 - 1; 
+
+            glm::vec3 direction(
+                ndcX * aspectRatio * tanFov,
+                ndcY * tanFov,
+                -1 // assuming camera looks towards -z
+            );
+
+            direction = glm::normalize(direction);
+
+            Ray r(viewPoint, direction);
+            rays.push_back({r, x, y});
+        }
+    }
+
 	return rays;
 }
 

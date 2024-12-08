@@ -10406,6 +10406,7 @@ CMakeFiles/453-skeleton.dir/453-skeleton/imagebuffer.cpp.o: /Users/yanisasrisa-a
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cassert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cctype \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cerrno \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cfloat \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/chrono \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/climits \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cmath \
@@ -10423,6 +10424,7 @@ CMakeFiles/453-skeleton.dir/453-skeleton/imagebuffer.cpp.o: /Users/yanisasrisa-a
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cwctype \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/errno.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/exception \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/float.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/functional \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/initializer_list \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/ios \
@@ -10463,6 +10465,7 @@ CMakeFiles/453-skeleton.dir/453-skeleton/imagebuffer.cpp.o: /Users/yanisasrisa-a
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/ctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/errno.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/float.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/i386/_limits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/i386/_mcontext.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/i386/_types.h \
@@ -10595,6 +10598,7 @@ CMakeFiles/453-skeleton.dir/453-skeleton/imagebuffer.cpp.o: /Users/yanisasrisa-a
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/xlocale/_wchar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/xlocale/_wctype.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/__stddef_max_align_t.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/float.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/limits.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stddef.h \
@@ -10603,19 +10607,127 @@ CMakeFiles/453-skeleton.dir/453-skeleton/imagebuffer.cpp.o: /Users/yanisasrisa-a
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glad/include/KHR/khrplatform.h \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glad/include/glad/glad.h \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glfw-3.3.2/include/GLFW/glfw3.h \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/common.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/qualifier.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/setup.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_float.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_mat2x2.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_mat2x3.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_mat2x4.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_mat3x2.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_mat3x3.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_mat3x4.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_mat4x2.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_mat4x3.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_mat4x4.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_quat.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_vec1.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_vec2.hpp \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_vec3.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_vec4.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/exponential.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/quaternion_geometric.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/scalar_constants.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_relational.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/geometric.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/gtc/constants.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/matrix.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/trigonometric.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/vector_relational.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_clip_space.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_double2x2.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_double2x2_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_double2x3.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_double2x3_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_double2x4.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_double2x4_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_double3x2.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_double3x2_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_double3x3.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_double3x3_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_double3x4.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_double3x4_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_double4x2.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_double4x2_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_double4x3.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_double4x3_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_double4x4.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_double4x4_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_float2x2.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_float2x2_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_float2x3.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_float2x3_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_float2x4.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_float2x4_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_float3x2.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_float3x2_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_float3x3.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_float3x3_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_float3x4.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_float3x4_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_float4x2.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_float4x2_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_float4x3.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_float4x3_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_float4x4.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_float4x4_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_projection.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_transform.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/quaternion_common.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/quaternion_geometric.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/quaternion_relational.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/quaternion_transform.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/quaternion_trigonometric.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/scalar_constants.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/scalar_constants.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_bool2.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_bool2_precision.hpp \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_bool3.hpp \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_bool3_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_bool4.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_bool4_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_double2.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_double2_precision.hpp \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_double3.hpp \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_double3_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_double4.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_double4_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_float2.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_float2_precision.hpp \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_float3.hpp \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_float3_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_float4.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_float4_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_int2.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_int2_precision.hpp \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_int3.hpp \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_int3_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_int4.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_int4_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_relational.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_relational.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_uint2.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_uint2_precision.hpp \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_uint3.hpp \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_uint3_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_uint4.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_uint4_precision.hpp \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/common.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/common.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_mat3x3.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_mat4x4.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_vec3.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_vec4.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/exponential.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/quaternion_geometric.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/quaternion_relational.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_relational.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/geometric.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/gtc/constants.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/gtc/matrix_transform.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/matrix.hpp \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/simd/platform.h \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/trigonometric.hpp \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/vector_relational.hpp \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/compute_vector_relational.hpp \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/_fixes.hpp \
@@ -10623,9 +10735,27 @@ CMakeFiles/453-skeleton.dir/453-skeleton/imagebuffer.cpp.o: /Users/yanisasrisa-a
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/compute_common.hpp \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/compute_vector_relational.hpp \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/func_common.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/func_exponential.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/func_geometric.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/func_integer.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/func_matrix.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/func_packing.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/func_trigonometric.inl \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/func_vector_relational.inl \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/qualifier.hpp \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/setup.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_half.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_half.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_mat2x2.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_mat2x3.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_mat2x4.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_mat3x2.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_mat3x3.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_mat3x4.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_mat4x2.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_mat4x3.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_mat4x4.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_quat.inl \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_vec1.hpp \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_vec1.inl \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_vec2.hpp \
@@ -10634,7 +10764,86 @@ CMakeFiles/453-skeleton.dir/453-skeleton/imagebuffer.cpp.o: /Users/yanisasrisa-a
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_vec3.inl \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_vec4.hpp \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_vec4.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/exponential.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/fwd.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/geometric.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/glm.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/common.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/qualifier.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/setup.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_mat3x3.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_mat4x4.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_vec3.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/detail/type_vec4.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/exponential.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_clip_space.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_projection.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/matrix_transform.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/quaternion_common.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/quaternion_double.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/quaternion_double_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/quaternion_float.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/quaternion_float_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/quaternion_geometric.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/quaternion_relational.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/quaternion_transform.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/quaternion_trigonometric.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/scalar_constants.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_bool1.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_bool1_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_double1.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_double1_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_float1.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_float1_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_int1.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_int1_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_relational.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_uint1.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/ext/vector_uint1_precision.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/geometric.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/gtc/constants.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/gtc/matrix_transform.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/gtc/quaternion.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/gtc/vec1.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/mat2x2.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/mat2x3.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/mat2x4.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/mat3x2.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/mat3x3.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/mat3x4.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/mat4x2.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/mat4x3.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/mat4x4.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/matrix.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/trigonometric.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/vec2.hpp \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/vec3.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/vec4.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/vector_relational.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/gtc/constants.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/gtc/epsilon.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/gtc/epsilon.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/gtc/matrix_transform.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/gtc/quaternion.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/gtc/type_ptr.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/gtc/type_ptr.inl \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/integer.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/mat2x2.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/mat2x3.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/mat2x4.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/mat3x2.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/mat3x3.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/mat3x4.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/mat4x2.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/mat4x3.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/mat4x4.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/matrix.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/packing.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/trigonometric.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/vec2.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/vec3.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/vec4.hpp \
+  /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/vector_relational.hpp \
   /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/stb-2.26/stb/stb_image_write.h
 
 CMakeFiles/453-skeleton.dir/453-skeleton/main.cpp.o: /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/453-skeleton/main.cpp \
@@ -13334,6 +13543,8 @@ CMakeFiles/453-skeleton.dir/thirdparty/imgui-1.78/imgui/imgui_widgets.cpp.o: /Us
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_blkcnt_t.h:
 
+/Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/gtc/type_ptr.inl:
+
 /Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/vivid-2.2.1/include/vivid/data/blue-yellow.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_caddr_t.h:
@@ -14247,6 +14458,8 @@ CMakeFiles/453-skeleton.dir/thirdparty/imgui-1.78/imgui/imgui_widgets.cpp.o: /Us
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/ranges_inplace_merge.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__debug_utils/randomize_range.h:
+
+/Users/yanisasrisa-ard/Desktop/cpsc-453-raytracing/thirdparty/glm-0.9.9.7/glm/gtc/type_ptr.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/erase_if_container.h:
 
